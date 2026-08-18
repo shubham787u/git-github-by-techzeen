@@ -9,20 +9,24 @@
 
     <!--1 git branch -M main((main)name according to you) -->
 
+
      <!-- 2
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch
 * main
 
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch second
 
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch
 * main
   second
 
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git checkout second
 Switched to branch 'second'
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
+
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch
   main
 * second
@@ -35,26 +39,33 @@ M       Git_Branches/index.html
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
+
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch
 * main
   second
 
 -->
+
   <!-- or -->
+
    <!-- C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git checkout -b third
 Switched to a new branch 'third' -->
 
 <!-- or -->
+
  <!-- C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch -c fourth
 Switched to a new branch 'fourth' -->
+
 
 <!-- C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch -D third
 Deleted branch third (was 92bb371). -->
 
+
 <!-- C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git branch -D second
 Deleted branch second (was 92bb371).
  -->
+
 
  <!-- C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch main
 M       Git_Branches/index.html
@@ -66,34 +77,62 @@ Your branch is up to date with 'origin/main'. -->
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch -c second
 Switched to a new branch 'second'
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
+
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git add .
 warning: in the working copy of 'Git_Branches/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'Git_Branches/second.txt', LF will be replaced by CRLF the next time Git touches it
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
+
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git commit -m "second branch"
 [second e7fd5ec] second branch
  2 files changed, 63 insertions(+), 1 deletion(-)
  create mode 100644 Git_Branches/second.txt
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>
+
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 
+
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch second
 Switched to branch 'second'
 
-C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git checkout second
-Already on 'second'
+
 
 C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git push -u origin second -->
 
 
+<!-- 
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git switch main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
 
 
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git merge second
+Updating 92bb371..d381791
+Fast-forward
+ Git_Branches/index.html | 90 ++++++++++++++++++++++++++++++++++++++++++++++++-
+ Git_Branches/second.txt |  1 +
+ 2 files changed, 90 insertions(+), 1 deletion(-)
+ create mode 100644 Git_Branches/second.txt
+
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen\Git_Branches>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 738 bytes | 105.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/shubham787u/git-github-by-techzeen.git
+   92bb371..d381791  main -> main
+branch 'main' set up to track 'origin/main'. -->
 
 
     <h1>Git Branches</h1>
