@@ -6,8 +6,118 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hii, I am Amend Command</h1>
 
+     <!-- 
+
+    git commit -m "first Commit on Amend",
+
+    git commit --amend -m "second commit on Amend" 
+
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git commit --amend
+[main 2268e2a] first commit
+ Date: Tue Aug 18 11:38:51 2026 +0530
+ 2 files changed, 26 insertions(+)
+ create mode 100644 Git_Amend/index.html
+ create mode 100644 Git_Amend/index1.html
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git log --oneline
+2268e2a (HEAD -> main) first commit
+9149630 (origin/main, origin/HEAD) branch completed
+d381791 (second) comment commit to
+e7fd5ec (origin/second) second branch
+92bb371 second commit
+7094bd1 Alias first commit
+a9f1c74 first commit done by me on main branch
+f173651 final commit of reset command
+
+
+f40de21 Merge branch 'main' of https://github.com/shubham787u/git-github-by-techzeen
+c37a730 Git Reset Command Done
+def1c21 wip
+590315f wip
+eaf5067 four
+0d4235c Revert "third"
+85a1c16 third
+c9f6e34 wip
+54e1031 second
+7be8bbd wip
+c44e3e6 wip
+fda9ec0 wip
+3735173 wip
+0a8be6f wip
+dcd8c51 wip
+c68a8dd first commit
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git status 
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git_Amend/index.html
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git add .
+warning: in the working copy of 'Git_Amend/index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git commit --amend -m "second commit on Amend" 
+[main 42f863a] second commit on Amend
+ Date: Tue Aug 18 11:38:51 2026 +0530
+ 2 files changed, 27 insertions(+)
+ create mode 100644 Git_Amend/index.html
+ create mode 100644 Git_Amend/index1.html
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git log --oneline
+42f863a (HEAD -> main) second commit on Amend
+9149630 (origin/main, origin/HEAD) branch completed
+d381791 (second) comment commit to
+e7fd5ec (origin/second) second branch
+92bb371 second commit
+7094bd1 Alias first commit
+a9f1c74 first commit done by me on main branch
+f173651 final commit of reset command
+f40de21 Merge branch 'main' of https://github.com/shubham787u/git-github-by-techzeen
+c37a730 Git Reset Command Done
+def1c21 wip
+590315f wip
+eaf5067 four
+0d4235c Revert "third"
+85a1c16 third
+c9f6e34 wip
+54e1031 second
+7be8bbd wip
+c44e3e6 wip
+fda9ec0 wip
+3735173 wip
+0a8be6f wip
+dcd8c51 wip
+c68a8dd first commit
+
+
+
+C:\Users\HP\Desktop\All Qspider\Qspider4\git-github-by-techzeen>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 611 bytes | 101.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/shubham787u/git-github-by-techzeen.git
+   9149630..42f863a  main -> main -->
+
+
+    <h1>Hii, I am Amend Command</h1>
     <h2>Amend command second commit</h2>
     <h3>Bhai, tum ak bar aur Amend ho jao</h3>
     
